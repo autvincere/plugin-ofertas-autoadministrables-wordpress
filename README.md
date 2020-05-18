@@ -21,4 +21,4 @@ _Una vez en el interior del post seleccionamos el archivo excel (.xls) con todos
 
 _Si todos los pasos se cumplieron exitosamente podremos ver nuestra nueva pagina con el contenido obtenido desde el archivo excel._
 
-![myimage-alt-tag](https://raw.githubusercontent.com/autvincere/plugin-ofertas-autoadministrables-wordpress/master/images/cuatro.png)
+![myimage-alt-tag](https://raw.githubusercontent.com/autvincere/plugin-ofertas-autoadministrables-wordpress/master/images/cuatro.jpg)
