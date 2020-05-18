@@ -1,0 +1,215 @@
+h2,h4,h3{
+     font-size: 0.8em;
+     display: block;
+     padding: 3px 0;
+   }
+   .filters .btn{margin-right: 5px;}
+   #ofertas .col.product{
+       width: 23%;
+       height: auto;
+       min-height: 450px;
+       }
+   .isotope-pager{padding: 0 0 0 10px;}
+   .isotope-pager a{
+       padding: 5px;
+       background: #e22726;
+       display: inline-block;
+       color: #fff;
+       margin: 0 11px 49px;
+           border-radius: 4px;
+           width: 20px;
+       text-align: center;
+   }
+   .btn-default {
+       color: #333;
+       background-color: #fff;
+       border-color: #ccc;
+   }
+   .btn {
+       display: inline-block;
+       padding: 6px 12px;
+       margin-bottom: 0;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 1.42857143;
+       text-align: center;
+       white-space: nowrap;
+       vertical-align: middle;
+       -ms-touch-action: manipulation;
+       touch-action: manipulation;
+       cursor: pointer;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+       background-image: none;
+       border: 1px solid transparent;
+       border-radius: 4px;
+       margin: 0 5px 5px 0;
+   }
+   
+   .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+       color: #333;
+       background-color: #e6e6e6;
+       border-color: #adadad;
+   }	
+   
+   .btn-default:hover {
+       color: #333;
+       background-color: #e6e6e6;
+       border-color: #adadad;
+   }
+   
+   .list-inline {
+       padding-left: 0;
+       margin-left: -5px;
+       list-style: none;
+       text-align: center;
+   }
+   #cajabotones .list-inline>li {
+       padding: 0;
+   }
+   .list-inline>li {
+       display: inline-block;
+       padding-right: 5px;
+       padding-left: 5px;
+   }
+   .filters .btn {
+       margin: 0 5px 5px 0;
+   }
+   .content .box-slider{height: auto;}
+   #ofertas .swiper-wrapper{height: auto;}
+   #cajabotones{ margin: 0 10px 30px; }
+   #ofertas h2{margin: 0 10px 30px; }
+   #ofertas .col.product .oferta p {font-family:'Trebuchet MS', Trebuchet, sans-serif;font-size: 12px;    padding: 10px 5px;
+   background-color: #f7f7f7;
+   color: #5a5a5a;
+   margin-top: 5px;}
+   
+   #ofertas .col.product .text p .capitalize::first-letter{
+     text-transform: capitalize;
+   }
+   .levantar {
+     position: absolute;
+     left: 36%;
+     top: 10vh;
+     z-index: 4;
+     box-shadow: 0px -7px 4px 3000px rgba(0, 0, 0, 0.7);
+   }
+
+   .legal{
+     
+   }
+   .desaparece{
+     display: none;
+   }
+   .aparece{
+     display: block;
+   }
+   .pagination {
+       clear:both;
+       padding:20px 0;
+       position:relative;
+       text-align: center;
+       line-height:20px;
+       font-family: 'clarendon_cn_btbold';
+   }
+ 
+   .pagination span, .pagination a {
+       display:block;
+       float:left;
+       margin: 2px 2px 2px 0;
+       padding:8px;
+       text-decoration:none;
+       width:20px;
+       height:20px;
+       color:#fff;
+       background: #e7403d;
+   }
+ 
+   .pagination a:hover{
+       background: #ffffff;
+       color: #e7403d;
+   }
+ 
+   .pagination .current{
+       padding:8px;
+       background: #ffffff;
+       color: #e7403d;
+   }
+   
+   .levantar {
+     position: absolute;
+     left: 36%;
+     top: 10vh;
+     z-index: 4;
+     box-shadow: 0px -7px 4px 3000px rgba(0, 0, 0, 0.7);
+   }
+   .cerrar{
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     top: -24px;
+     right: -24px;
+     background-image: url('https://www.unimarc.cl/wp-content/themes/unimarc/images/cancel-icon.png');
+     background-size: contain;
+     background-color: #ffffff91;
+     border-radius: 30px;
+     cursor: pointer;
+   }
+   .legal{
+     
+   }
+   .desaparece{
+     display: none;
+   }
+   .aparece{
+     display: block;
+   }
+   div#pop > div.grid-item{
+     max-width: 321px; 
+     width: 100% !important;
+     margin: 0px !important;
+   }
+   .ahorras{
+       font-family: "Trebuchet MS", Trebuchet, sans-serif;
+       font-size: 16px;
+   }
+   /* .cont-popup{
+     position: absolute;
+   left: 42%;
+   right: 37%;
+   padding: 0px;
+   top: 10vh;
+   z-index: 4;
+   box-shadow: 0 0 20px 4000px rgba(0, 0, 0, 0.7);
+   } */
+   @media (max-width: 420px){
+       #ofertas .col.product .text, #ofertas .col.product .oferta {
+           min-height: auto;
+       }
+   }
+
+@media (min-width: 0px) and (max-width: 321px) {
+     .levantar{
+          left: 0%;  
+     } 
+     .cerrar {
+          right: 6px; 
+      }
+      .col {
+          padding: 0px;
+      }
+      #ofertas-container {
+          justify-content: center;
+      }  
+}
+
+@media (min-width: 321px) and (max-width: 580px) {
+     .levantar{
+          left: 7%;  
+     }
+     .cerrar {
+          right: -16px; 
+      }
+}
