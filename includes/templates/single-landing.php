@@ -5,7 +5,8 @@
  * @since Unimarc 1.0
  */
 
-get_header(); ?>
+get_header(); 
+?>
 <h1>Esto es una plantilla de landing</h1>
 
      <?php 

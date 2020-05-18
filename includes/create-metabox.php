@@ -40,10 +40,10 @@ function add_custom_meta_boxes() {
      echo $html; 
      
      ?>
-     <div>
+     <!-- <div>
           <label for="input-metabox">input Simple:</label>
           <input name="input-metabox" type="text" value="<?php echo get_post_meta($post->ID, "input-metabox", true); ?>"/>
-     </div>
+     </div> -->
 
    <?php
  } 
@@ -64,15 +64,15 @@ function ga_guardar_metaboxes($post_id, $post, $update){
      $input_metabox = "";
      $wp_custom_attachment = "";
 
-     if(isset($_POST["input-metabox"])) {
-          $input_metabox = $_POST["input-metabox"];
-     }
-     update_post_meta($post_id, "input-metabox", $input_metabox);
-
-     // if(isset($_POST["wp_custom_attachment"])) {
-     //      $wp_custom_attachment = $_POST["wp_custom_attachment"];
+     // if(isset($_POST["input-metabox"])) {
+     //      $input_metabox = $_POST["input-metabox"];
      // }
-     // update_post_meta($post_id, "wp_custom_attachment", $wp_custom_attachment);
+     // update_post_meta($post_id, "input-metabox", $input_metabox);
+
+     if(isset($_POST["wp_custom_attachment"])) {
+          $wp_custom_attachment = $_POST["wp_custom_attachment"];
+     }
+     update_post_meta($post_id, "wp_custom_attachment", $wp_custom_attachment);
 
      if ( ! empty( $_FILES['wp_custom_attachment']['name'] ) ) {
           

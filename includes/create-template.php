@@ -43,6 +43,7 @@ function my_theme_redirect() {
 
     //A Specific Custom Post Type
     if ($wp->query_vars["post_type"] == 'landing') {
+        // require('header-single.php');
 	   $templatefilename = 'single-landing.php';
 	   
         if (file_exists(TEMPLATEPATH . '/' . $templatefilename)) {
@@ -52,6 +53,12 @@ function my_theme_redirect() {
         }
 	   do_theme_redirect($return_template);
     }
+
+    //A Specific Header Post Type
+    // if ($wp->query_vars["post_type"] == 'landing') {
+    //    echo "<h1>es el landing Header</h1>";
+    //  };
+ 
 
 }
 function do_theme_redirect($url) {
